@@ -1,9 +1,14 @@
+<?php
+ $location = Ovcha Kupel 
+ $space = 95 sqf.
+?>
+
 <li class="property-card">
 					<div class="property-primary">
 						<h2 class="property-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 						<div class="property-meta">
-							<span class="meta-location">Ovcha Kupel, Sofia</span>
-							<span class="meta-total-area">Total area: 91.65 sq.m</span>
+							<span class="meta-location">Location:<?php echo $location ?> </span>
+							<span class="meta-total-area">Total area: <?php echo $space ?></span>
 						</div>
 						<div class="property-details">
 							<span class="property-price">€ 100,815</span>
