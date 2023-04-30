@@ -1,8 +1,5 @@
 <footer class="site-footer">
-			<p>&copy; Copyright 2023| Developer links: 
-				<a href="#">Edits</a>,
-				<a href="#">Home</a>,
-				<a href="#">Single</a>
+			<p>&copy; <?php echo get_bloginfo('title') ?>, Copyright <?php echo date('Y'); ?>
 			</p>
 		</footer>
 	</div>
